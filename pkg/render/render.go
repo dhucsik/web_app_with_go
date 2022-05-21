@@ -36,7 +36,6 @@ func RenderTemplate(w http.ResponseWriter, tmpl string) {
 
 //CreateTemplateCache creates a template cache as a map
 func CreateTemplateCache() (map[string]*template.Template, error) {
-	fmt.Println("fadfasg")
 
 	myCache := map[string]*template.Template{}
 
